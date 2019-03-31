@@ -1,0 +1,21 @@
+﻿<Window x:Class="HelloWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWPFApp"
+        mc:Ignorable="d"
+        Title="Aplikacja WPF" Height="501.821" Width="301.014">
+    <Grid>
+        <Label x:Name="labelFirstName" Content="Imie" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.264,-5.085"/>
+        <Label x:Name="labelLastName" Content="Nazwisko" HorizontalAlignment="Left" Margin="50,93,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelAge" Content="Wiek" HorizontalAlignment="Left" Margin="50,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelMsgName" Content="" HorizontalAlignment="Left" Margin="50,220,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelMsgAge" Content="" HorizontalAlignment="Left" Margin="50,251,0,110"/>
+        <TextBox x:Name="textBoxFirstName" HorizontalAlignment="Left" Height="23" Margin="117,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="textBoxFirstName_LF"/>
+        <TextBox x:Name="textBoxLastName" HorizontalAlignment="Left" Height="23" Margin="117,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="textBoxLastName_LF"/>
+        <TextBox x:Name="textBoxAge" HorizontalAlignment="Left" Height="23" Margin="117,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="textBoxAge_LF"/>
+        <Button x:Name="buttonClear" Content="Wyczysc" HorizontalAlignment="Left" Margin="90,365,0,0" VerticalAlignment="Top" Width="127" Height="53" Click="buttonClear_Click"/>
+
+    </Grid>
+</Window>
